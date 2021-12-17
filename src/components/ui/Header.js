@@ -323,8 +323,8 @@ import Colors from '../../colors/Colors';
           <AppBar position="fixed" className={classes.appbar}>
             <Toolbar disableGutters id="back-to-top-anchor">
               <Button
-                // component={Link}
-                // to="/"
+                component={Link}
+                to="/"
                 disableRipple
                 onClick={() => props.setValue(0)}
                 className={classes.logoContainer}

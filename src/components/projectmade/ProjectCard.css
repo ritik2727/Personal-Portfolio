@@ -17,6 +17,7 @@
   .card-wrapper:active, .card-wrapper:hover, .card-wrapper:focus {
     outline: none;
     border: none;
+    
   }
   
   .card {
@@ -29,7 +30,8 @@
     position: relative;
   }
   .card:hover {
-    box-shadow  : 0 4px 4px 6px #6600FF ;
+    box-shadow  : 0 4px 4px 6px #1976D2  ;
+    overflow: hidden;
   }
   
   .card .card-image {

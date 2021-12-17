@@ -66,22 +66,15 @@ function AboutMe(props) {
                   Know Who <span style={{color:Colors.blue}}>I'M</span>
               </Typography> 
               </Grid>
-              <Grid item>
-              <Typography
-                  variant="body1"
-                  align='center'
-                  paragraph
-                  style={{fontWeight:'bold'}}
-                >
-                  Hi,I'm <span style={{color:Colors.blue}}>Ritik Jain</span>
-                </Typography>   
+              <Grid item> 
                 <Typography
                   variant="body1"
                   align='center'
                   paragraph
                   style={{fontWeight:'bold'}}
                 >
-                  A passionate Full Stack Web and a Mobile Developer.
+                  Hi,I'm <span style={{color:Colors.blue}}>Ritik Jain</span> . 
+                  A passionate Full Stack Web and  Mobile Developer.
                   I am having an experience of building Web applications with 
                   JavaScript / Reactjs / Nodejs and 
                   some other cool libraries and frameworks.

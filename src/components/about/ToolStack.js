@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography ,Grid} from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import Colors from '../../colors/Colors';
-import {SiVisualstudiocode,SiPostman,SiVercel,SiHeroku} from "react-icons/si";
+import {SiVisualstudiocode,SiPostman,SiVercel,SiHeroku,SiGit} from "react-icons/si";
 import StackCard from './StackCard';
 
 
@@ -30,7 +30,8 @@ const icons = [
     SiVisualstudiocode,
     SiPostman,
     SiVercel,
-    SiHeroku
+    SiHeroku,
+    SiGit
     
   ];
 

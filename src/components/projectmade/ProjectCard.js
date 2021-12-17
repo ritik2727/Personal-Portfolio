@@ -25,13 +25,10 @@ const  ProjectCard = ({name,desc,image,gitLink,appLink}) => {
 
         <div style={{width:matchesSM?'18.2em' :'25em'}} className='card-wrapper'>
                 <div className="card" style={{
-              
-    
-              
-                  backgroundColor: `rgba(255, 255, 255, 0.1)`
-                  , borderRadius: '2em', padding: '2em', elevation: '10em',
-
-               }}>
+                  backgroundColor: `rgba(255, 255, 255, 0.1)`, 
+                  padding: '2em', elevation: '10em',
+                overflow:' hidden'
+                }}>
                     <div className="card-image">
                         <img src={image} alt={name}  />
                     </div>

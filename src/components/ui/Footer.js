@@ -7,7 +7,7 @@ import { useMediaQuery , useTheme} from '@mui/material';
 import {
     AiFillGithub,
     AiOutlineTwitter,
-    AiFillInstagram,
+    AiOutlineGoogle,
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
   import { DarkThemeContext } from '../../context/DarkThemeContext';
@@ -109,16 +109,44 @@ export default function Footer() {
                                 spacing={2}
                             >
                                 <Grid item>
-                                    <AiFillGithub />
+                                <a
+                                    href="https://github.com/ritik2727"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    style={{color:darkTheme?Colors.white :Colors.Black}}
+                                >
+                                    <AiFillGithub  />
+                                </a>
                                 </Grid>
                                 <Grid item>
-                                    <AiOutlineTwitter/>
+                                <a
+                                    href="https://twitter.com/Ritik2727"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    style={{color:darkTheme?Colors.white :Colors.Black}}
+                                >
+                                    <AiOutlineTwitter />
+                                </a>
                                 </Grid>
                                 <Grid item>
-                                    <AiFillInstagram /> 
+                                <a
+                                    href='mailto:ritikjain2727@gmail.com'
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    style={{color:darkTheme?Colors.white :Colors.Black}}
+                                >
+                                    <AiOutlineGoogle  /> 
+                                </a>
                                 </Grid>
                                 <Grid item>
-                                    <FaLinkedinIn /> 
+                                <a
+                                    href="https://www.linkedin.com/in/ritik-jain-3b2208217"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    style={{color:darkTheme?Colors.white :Colors.Black}}
+                                >
+                                    <FaLinkedinIn  /> 
+                                </a>
                                 </Grid>
                             </Grid>
                         </Grid>

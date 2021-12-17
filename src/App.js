@@ -84,25 +84,23 @@ function App(props) {
           selectedIndex={selectedIndex}
           setSelectedIndex={setSelectedIndex}
       />
-     
-   
-  
-
     <ScrollToTop />
+    </Suspense>
 
      
   
     <Presence exitBeforeEnter >
- 
+    <Suspense fallback={<Loading />} >
   <Routes location={location} key={location.key} >
   <Route exact  path='/'  element={ <LandingPage/>} />
     <Route exact  path='/projects'  element={<Project />} />
      <Route exact  path='/contact'  element={<ContactMe />} />
      <Route exact  path='/about'  element={<AboutMe />} />
   </Routes>
+  </Suspense>
   </Presence>
 
-
+  <Suspense fallback={<Loading />} >
   <Footer />
   </Suspense>
  

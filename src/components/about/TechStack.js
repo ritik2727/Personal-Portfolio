@@ -10,7 +10,6 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
 } from "react-icons/di";
 import StackCard from './StackCard';
 
@@ -48,7 +47,6 @@ const icons = [
     SiBootstrap,
     SiHtml5,
     SiCss3,
-    DiGit,
     SiC,
     CgCPlusPlus,
     DiPython,
