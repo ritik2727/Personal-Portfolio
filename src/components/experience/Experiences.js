@@ -24,6 +24,17 @@ const useStyles = makeStyles(theme => ({
     },
 }))
 const experience = [
+    {
+        role: "React Native Developer Intern",
+        company: "SHORTCAST",
+    
+        date: "Jan 2022 - Mar 2022",
+        desc: "Worked as a Frontend Mobile app developer. Build reusable components and audio player and recorder using javascript packages and worked on UI and API integration",
+        descBullets: [
+          "Developing Portal for Student's Interactive with the Teachers.",
+          "Designing User Interface of the Application",
+        ],
+      },
       {
         role: "Web Developer Intern",
         company: "The Spark Foundation",
@@ -35,6 +46,7 @@ const experience = [
           "Designing User Interface of the Application"
         ]
       },
+      
     ]
 
 function Experiences(props) {

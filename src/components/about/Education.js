@@ -105,7 +105,7 @@ function Education(props) {
                 variant='outlined' 
                 style={{borderColor:Colors.blue}}
                 onClick={
-                  ()=>window.open('https://drive.google.com/file/d/1pb4AgOyGnazra3Ga9oGC9ej34lN2WAja/view', '_blank')
+                  ()=>window.open('https://drive.google.com/file/d/1p0Fh1gma--udH1-8Ch2AxqzqZMWutKto/view', '_blank')
                   }
               >
                 <Typography style={{color:Colors.blue}}>

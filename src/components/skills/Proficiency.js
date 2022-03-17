@@ -40,11 +40,11 @@ const useStyles = makeStyles(theme => ({
 
     
 const testData = [
-    {title:'Frontend/Design', bgcolor: "#1976D2", completed: 85 },
-    {title:'Backend', bgcolor: "#1976D2", completed: 70 },
-    { title:'UI/UX Design',bgcolor: "#1976D2", completed: 60 },
-    { title:'Programming',bgcolor: "#1976D2", completed: 60 },
-    { title:'Mobile App',bgcolor: "#1976D2", completed: 70 },
+    {title:'Frontend/Design', bgcolor: "#1976D2", completed: 89 },
+    {title:'Backend', bgcolor: "#1976D2", completed: 78 },
+    { title:'UI/UX Design',bgcolor: "#1976D2", completed: 70 },
+    { title:'Programming',bgcolor: "#1976D2", completed: 65 },
+    { title:'Mobile App',bgcolor: "#1976D2", completed: 89 },
   ];
   
 
