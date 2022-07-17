@@ -25,7 +25,7 @@ export default function StackCard({title,icon,id}) {
              <Box
                 style={{padding:'1em'}}
                 sx={{
-                width: 70,
+                width: 70, 
                 height: 70,
                 borderRadius:3,
                 backgroundColor: 'transprant',

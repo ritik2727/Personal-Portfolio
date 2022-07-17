@@ -19,7 +19,7 @@ export default function ContactMe(props) {
     initial={{ scaleY: 0 }}
     animate={{ scaleY: 1 }}
     exit={{ scaleY: 0 }}
-    transition={{ duration: 0.3,type: 'spring' }}
+    transition={{ duration: 0.2,type: 'spring' }}
   >
     <Grid container direction='row' style={{paddingBottom:'3em',marginTop:'3em'}}>
       <Form style={{marginTop:'5em'}} />

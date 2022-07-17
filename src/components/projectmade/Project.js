@@ -5,9 +5,11 @@ import "./ProjectCard.css.map";
 import ecommerse from "../../assets/jpgtry.jpg";
 import bankingrj from "../../assets/bankingrj.jpg";
 import ngowf from "../../assets/ngowf.jpg";
-import keepnotes from "../../assets/keepnotes.jpg";
+// import keepnotes from "../../assets/keepnotes.jpg";
 
 import Done from "../../assets/donewithitapp.png";
+
+import carschar from "../../assets/carschar.png";
 import bewwoofMobile from "../../assets/Bewakoofclone.png";
 
 import ProjectCard from "./ProjectCard";
@@ -33,6 +35,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 const data = [
+  {
+    type: "Website",
+    name: "Char Pahiya",
+    desc: "Online Cars Selling Website with MERN stack",
+    gitLink: "https://github.com/ritik2727/note-app",
+    appLink: "https://team-speed.herokuapp.com/",
+    image: carschar,
+  },
   {
     type: "Mobile App",
     name: "Ecommerce App",
@@ -81,14 +91,14 @@ const data = [
 //     appLink: "https://quiz-app-op.herokuapp.com/",
 //     image: quizapp,
 //   },
-  {
-    type: "Website",
-    name: "Keep Notes Website",
-    desc: "Notes Website with React, React Router and Redux",
-    gitLink: "https://github.com/ritik2727/note-app",
-    appLink: "https://client-ritik2727.vercel.app/",
-    image: keepnotes,
-  },
+  // {
+  //   type: "Website",
+  //   name: "Keep Notes Website",
+  //   desc: "Notes Website with React, React Router and Redux",
+  //   gitLink: "https://github.com/ritik2727/note-app",
+  //   appLink: "https://client-ritik2727.vercel.app/",
+  //   image: keepnotes,
+  // },
 ];
 
 function Project(props) {
@@ -102,7 +112,7 @@ function Project(props) {
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
       exit={{ scaleY: 0 }}
-      transition={{ duration: 0.3, type: "spring" }}
+      transition={{ duration: 0.2, type: "spring" }}
     >
       <Grid
         container

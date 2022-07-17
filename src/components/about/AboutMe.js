@@ -44,7 +44,7 @@ function AboutMe(props) {
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
       exit={{ scaleY: 0 }}
-      transition={{ duration: 0.3,type: 'spring' }}
+      transition={{ duration: 0.2,type: 'spring' }}
       >
         <Grid container direction="column" > 
           <Grid
