@@ -59,5 +59,8 @@ The page will reload if you make edits.
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
+## License
+[MIT License](LICENSE)
+
 Give a ⭐ if you like this website!
 
