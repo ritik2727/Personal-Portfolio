@@ -97,7 +97,7 @@ export default function Footer() {
                             >
                                 {'Copyright © '} {' '}
                                 {new Date().getFullYear()}
-                                {' RJ'}
+                                {' Ritikjain.tech'}
                             </Typography>
                         </Grid>
                         <Grid item md={4}>

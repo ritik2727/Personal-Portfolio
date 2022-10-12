@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://portfolio-rust-iota.vercel.app/" target="_blank">RJ.tech</a>
+  <a href="https://portfolio-rust-iota.vercel.app/" target="_blank">Ritikjain.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./image/portofiorj.jpg" />
