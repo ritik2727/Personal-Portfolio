@@ -144,7 +144,7 @@ export default function Form(props) {
       message: message,
     };
 
-    await fetch("https://vast-castle-89203.herokuapp.com/contact", {
+    await fetch("https://server-mu-sand.vercel.app/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

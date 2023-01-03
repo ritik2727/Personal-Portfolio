@@ -8,7 +8,8 @@ import ngowf from "../../assets/ngowf.jpg";
 // import keepnotes from "../../assets/keepnotes.jpg";
 
 import Done from "../../assets/donewithitapp.png";
-
+import lukjury from "../../assets/lukury.png";
+import spacez from "../../assets/spacx.png";
 import carschar from "../../assets/carschar.png";
 import bewwoofMobile from "../../assets/Bewakoofclone.png";
 
@@ -44,11 +45,20 @@ const data = [
     image: carschar,
   },
   {
+    type: "Website",
+    name: "Travel Companion",
+    desc: "Travel Companion is a web based application which help users to travel around India with minimal efforts. It is built on React JS Framework & NodeJS for Back-End.",
+    gitLink: "https://github.com/ritik2727/Travel-Companion-frontend",
+    appLink: "https://travel-companion-tau.vercel.app/",
+    image: lukjury,
+  },
+  {
     type: "Mobile App",
     name: "Ecommerce App",
     desc: "This is a Ecommmerce Mobile App build with react native,firebase,ExpressJs,Stripe",
     gitLink: "https://github.com/ritik2727/E-Commerce_Mobile_App",
-    appLink: "https://drive.google.com/drive/folders/1cYXlYOt6daAkdB3fAfHLx1fguGPz1R_w",
+    appLink:
+      "https://drive.google.com/drive/folders/1cYXlYOt6daAkdB3fAfHLx1fguGPz1R_w",
     image: bewwoofMobile,
   },
   {
@@ -83,14 +93,22 @@ const data = [
     appLink: "https://github.com/ritik2727/DoneWithIt",
     image: Done,
   },
-//   {
-//     type: "Website",
-//     name: "Quiz Game Website",
-//     desc: "This is a Quiz Game Website build with ReactJs",
-//     gitLink: "https://github.com/ritik2727/quiz-app",
-//     appLink: "https://quiz-app-op.herokuapp.com/",
-//     image: quizapp,
-//   },
+  {
+    type: "Mobile App",
+    name: "SpaceX Launch Stats",
+    desc: "SpaceX launch history - React, GraphQL, Apollo.",
+    gitLink: "https://github.com/ritik2727/spaceX_launch-stats",
+    appLink: "https://github.com/ritik2727/spaceX_launch-stats",
+    image: spacez,
+  },
+  //   {
+  //     type: "Website",
+  //     name: "Quiz Game Website",
+  //     desc: "This is a Quiz Game Website build with ReactJs",
+  //     gitLink: "https://github.com/ritik2727/quiz-app",
+  //     appLink: "https://quiz-app-op.herokuapp.com/",
+  //     image: quizapp,
+  //   },
   // {
   //   type: "Website",
   //   name: "Keep Notes Website",
