@@ -47,9 +47,7 @@ const icons = [
     SiBootstrap,
     SiHtml5,
     SiCss3,
-    SiC,
     CgCPlusPlus,
-    DiPython,
     SiJava,
 
     
